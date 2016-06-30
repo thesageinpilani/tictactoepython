@@ -27,7 +27,7 @@ printBoard(theBoard)
 
 for i in range(9):
 	print('Turn for '+ turn + '. Make a move')
-	move = raw_input()
+	move = input()
 	theBoard[move] = turn
 	if turn == 'X':
 		listx.append(theBoardcr[move])
