@@ -41,7 +41,7 @@ for i in range(9):
 	if(x >= 3):
 		if(x == 3):
 			if listx in winningCombinations:
-				print "X won!!!"
+				print("X won!!!")
 				break
 
 
@@ -49,5 +49,5 @@ for i in range(9):
 	if(o >= 3):
 		if(o == 3):
 			if listo in winningCombinations:
-				print "O won!!!"
+				print("O won!!!")
 				break
